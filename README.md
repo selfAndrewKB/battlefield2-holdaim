@@ -32,7 +32,7 @@ Therefore it is prone to occasionally becoming "confused" about whether you want
 
 In the 2nd case, BF2 ignores input from the Aim key during a reload. So if you are holding the Aim key upon finisnihg the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
 
-Regarding the 3rd case, keep in mind that you *can* first hold the Shift key and *then* begin holding the Aim key, allowing you to immediately transition to ADS upon releasing shift
+Regarding the 3rd case, keep in mind that you *can* first hold the Shift key (set to sprint by default) and *then* begin holding the Aim key, allowing you to immediately transition to ADS upon releasing Shift.
 
 In any of the three cases, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
 
