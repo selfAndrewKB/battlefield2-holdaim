@@ -1,12 +1,12 @@
-# Hold-to-aim (hold button to ADS) controls in Battlefield 2
+# "Hold button to ADS" controls in Battlefield 2
 
 **Author:** Andrew Bryant (a.k.a SelfAndrewKB)
 
-[Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2) only has toggle-to-aim controls, which many people find clumsy. This Autohotkey script adds industry-standard hold-to-aim controls to the game HOPEFULLY without interrupting the other functions that the Aim button also performs in the game. 
+[Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2) only has toggle-to-aim controls, which many people find clumsy. This Autohotkey script adds industry-standard hold-to-aim controls to the game, HOPEFULLY without too badly disrupting the other functions that the Aim button also performs in the game. 
 
 The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to do the game's original things, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
 
-This is the result of crawling through AutoHotkey's documention, gradually learning whatever needed over the course of a day, to repurpose a script orginally made for another game. Might not be the most refined, but works well.
+This particular script is the result of crawling through AutoHotkey's documention, gradually learning whatever needed over the course of a day, to repurpose a script orginally made for another game. Might not be the most refined, but works well.
 
 
 
@@ -41,6 +41,6 @@ When it comes to vehicles, one discovered quirk is losing the fully automatic fi
 
 ## Acknowledgements
 
-- Huge and special thanks to Desi Quintans, [whose script for EYE Divine Cybermancy](https://github.com/DesiQuintans/eye-holdaim) I used as a foundation and inspiration for my BF2 version.
+- Huge and special thanks to [Desi Quintans](http://www.desiquintans.com), whose [AHK script](https://github.com/DesiQuintans/eye-holdaim) for "EYE Divine Cybermancy" I used as a foundation and inspiration for my BF2 version.
 
 - The BF2 icon for the compiled executable comes from the BF2 executable itself.
