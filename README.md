@@ -36,7 +36,7 @@ Regarding the 3rd case, keep in mind that you *can* first hold the Shift key (se
 
 In any of the three cases, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
 
-When it comes to vehicles, one discovered quirk is losing the fully automatic fire of a tank's turret. Two options are to rebind the function to a new key in the game's options menu, or to suspend the script by pressing the "0" key (assigned key can be easily changed in the 'BF2_Hold-to-Aim.ahk' file and recompiled back into an .exe file). Jets and Helicopters seems to be fine.
+When it comes to vehicles, one discovered quirk is losing fully automatic fire of a tank's turret by holding the right mouse button. Two options are to rebind the function to a new key in the game's options menu, or to suspend the script by pressing the "0" key (assigned key can be easily changed in the 'BF2_Hold-to-Aim.ahk' file and recompiled back into an .exe file). Jets and Helicopters seems to be fine.
 
 
 ## Acknowledgements
