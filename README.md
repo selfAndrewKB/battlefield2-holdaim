@@ -6,7 +6,7 @@
 
 The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to do the game's original things, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
 
-This is the result of crawling through AutoHotkey's documention, gradually learning whatever needed over the course of a day, to repurpose a script orginally made for another game. Might not be the most refined, but works well.
+This is the result of crawling through AutoHotkey's documentation, gradually learning whatever needed over the course of a day, to repurpose a script originally made for another game. Might not be the most refined, but works well.
 
 
 
@@ -18,18 +18,18 @@ Run `BF2_Hold-to-Aim.exe` (either before or after running Battlefield 2 seems to
 
 _Fair warning:_ Scanning the executable with [VirusTotal](https://www.virustotal.com) raises warnings in 4 out of 66 anti-virus engines. These are, IMO, false positives caused by the file being new. 
 
-If you would prefer to run an uncompiled script (and even alter it yourself in case your keybinds are different), then you can install [Autohotkey](https://www.autohotkey.com/) and run `BF2_Hold-to-Aim.ahk`.
+If you prefer to run an uncompiled script (and even alter it yourself in case your keybinds are different), then you can install [Autohotkey](https://www.autohotkey.com/) and run `BF2_Hold-to-Aim.ahk`.
 
 
 
 ## Note about potential issues
 
 While I've managed to fine-tune this script and get it working pretty smoothly for the most part, it is still ultimately simulating true "hold to aim down sights" via clever use of inhumanly fast virtual mouse clicks.
-Therefore it is prone to occasionally becoming "confused" about whether you want to raise your sights or lower them. Two predictable scenarios are: 
+Therefore, it is prone to occasionally becoming "confused" about whether you want to raise your sights or lower them. Two predictable scenarios are: 
 1) Panicked, rapid mashing of both mouse buttons.
 2) Holding down the right mouse button while reloading.
 
-In the 2nd case, BF2 ignores input from the Aim key during a reload. So if you are holding the Aim key upon finisnihg the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
+In the 2nd case, BF2 ignores input from the Aim key during a weapon reload. So if you are holding the Aim key upon finishing the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
 
 In either case, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
 
