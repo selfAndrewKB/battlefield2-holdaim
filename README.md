@@ -6,7 +6,7 @@
 
 The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to do the game's original things, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
 
-This particular script is the result of crawling through AutoHotkey's documention, gradually learning whatever needed over the course of a day, to repurpose a script orginally made for another game. Might not be the most refined, but works well.
+This particular script is the result of crawling through AutoHotkey's documention, gradually learning whatever needed over the course of a day, to repurpose a script orginally made for another game. Might not be the most refined, it but works well enough to mostly forget the fact that this mechanic isn't in the game natively.
 
 
 
