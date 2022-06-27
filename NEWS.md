@@ -1,3 +1,4 @@
-# 2022-06-27
+# 06-27-2022
 
-Initial release.
+1) Initial release.
+2) Version 2.0

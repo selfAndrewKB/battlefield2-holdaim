@@ -18,23 +18,20 @@ Run `BF2_Hold-to-Aim.exe` (either before or after running Battlefield 2 seems to
 
 _Fair warning:_ Scanning the executable with [VirusTotal](https://www.virustotal.com) raises warnings in 4 out of 66 anti-virus engines. These are, IMO, false positives caused by the file being new. 
 
-If you would prefer to run an uncompiled script, then you can install [Autohotkey](https://www.autohotkey.com/) and run `BF2_Hold-to-Aim.ahk`.
+If you would prefer to run an uncompiled script (and even alter it yourself in case your keybinds are different), then you can install [Autohotkey](https://www.autohotkey.com/) and run `BF2_Hold-to-Aim.ahk`.
 
 
 
 ## Note about potential issues
 
 While I've managed to fine-tune this script and get it working pretty smoothly for the most part, it is still ultimately simulating true "hold to aim down sights" via clever use of inhumanly fast virtual mouse clicks.
-Therefore it is prone to occasionally becoming "confused" about whether you want to raise your sights or lower them. Three predictable scenarios are: 
+Therefore it is prone to occasionally becoming "confused" about whether you want to raise your sights or lower them. Two predictable scenarios are: 
 1) Panicked, rapid mashing of both mouse buttons.
 2) Holding down the right mouse button while reloading.
-3) Holding down the right mouse button, THEN pressing and holding the Shift key.
 
 In the 2nd case, BF2 ignores input from the Aim key during a reload. So if you are holding the Aim key upon finisnihg the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
 
-Regarding the 3rd case, keep in mind that you *can* first hold the Shift key and *then* begin holding the Aim key, allowing you to immediately transition to ADS upon releasing shift
-
-In any of the three cases, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
+In either case, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
 
 When it comes to vehicles, one discovered quirk is losing the fully automatic fire of a tank's turret. Two options are to rebind the function to a new key in the game's options menu, or to suspend the script by pressing the "0" key (assigned key can be easily changed in the 'BF2_Hold-to-Aim.ahk' file and recompiled back into an .exe file). Jets and Helicopters seems to be fine.
 

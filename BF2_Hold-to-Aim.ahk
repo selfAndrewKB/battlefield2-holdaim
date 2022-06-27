@@ -55,6 +55,8 @@ in_aim_mode := FALSE
 	
 	~LShift & RButton::Press_RMB_Shift(in_aim_mode, "RButton", hold_threshold)
 	
+	~LShift & RButton Up::Release_RMB(in_aim_mode)
+	
 	~0::Suspend
 	
 }
