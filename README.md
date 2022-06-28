@@ -1,6 +1,6 @@
-# Hold-to-aim (hold button to ADS) controls in Battlefield 2
+# "Hold to aim down sights" controls in Battlefield 2
 
-**Author:** Andrew Bryant (a.k.a SelfAndrewKB)
+**Author:** SelfAndrewKB
 
 [Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2) only has toggle-to-aim controls, which many people find clumsy. This Autohotkey script adds industry-standard hold-to-aim controls to the game HOPEFULLY without interrupting the other functions that the Aim button also performs in the game. 
 
