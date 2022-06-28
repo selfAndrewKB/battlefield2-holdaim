@@ -2,9 +2,9 @@
 
 **Author:** SelfAndrewKB
 
-[Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2) only has toggle-to-aim controls, which many people find clumsy. This Autohotkey script adds industry-standard hold-to-aim controls to the game HOPEFULLY without interrupting the other functions that the Aim button also performs in the game. 
+[Battlefield 2](https://en.wikipedia.org/wiki/Battlefield_2) only has toggle-to-aim controls, which many people find clumsy. This Autohotkey script adds industry-standard hold-to-aim controls to the game *hopefully* without interrupting the other functions that the Aim button also performs in the game. 
 
-The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to do the game's original things, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
+The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to perform the game's original actions, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
 
 This particular script is the result of crawling through AutoHotkey's documentation, gradually learning whatever needed over the course of a day, to repurpose a script originally made for another game. Might not be the most refined, but it works well enough to often forget the fact that this mechanic isn't in the game natively.
 
@@ -23,7 +23,7 @@ If you prefer to run an uncompiled script (and even alter it yourself in case yo
 
 ## Note about potential issues
 
-While I've managed to fine-tune this script and get it working pretty smoothly for the most part, it is still ultimately simulating true "hold to aim down sights" via clever use of inhumanly fast virtual mouse clicks.
+While I've managed to fine-tune and get this script working pretty smoothly for the most part, it is still ultimately simulating true hold-to-ads functionality via clever use of inhumanly fast virtual mouse clicks.
 Therefore, it is prone to occasionally becoming "confused" about whether you want to raise your sights or lower them. Two predictable scenarios are: 
 1) Panicked, rapid mashing of both mouse buttons.
 2) Holding down the right mouse button while reloading.
@@ -37,6 +37,6 @@ When it comes to vehicles, one discovered quirk is losing the fully automatic fi
 
 ## Acknowledgements
 
-- Huge and special thanks to [Desi Quintans](http://www.desiquintans.com/), whose [script for EYE Divine Cybermancy](https://github.com/DesiQuintans/eye-holdaim) I used as a foundation and inspiration for my BF2 version.
+- Huge and special thanks to [Desi Quintans](http://www.desiquintans.com/), whose [script for EYE Divine Cybermancy](https://github.com/DesiQuintans/eye-holdaim) I used as a foundation and inspiration for my own.
 
 - The BF2 icon for the compiled executable comes from the BF2 executable itself.
