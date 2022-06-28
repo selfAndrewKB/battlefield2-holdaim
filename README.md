@@ -6,8 +6,7 @@
 
 The script does this by differentiating between taps and holds, so you can still tap the Right Mouse to do the game's original things, and then hold to aim whenever you like. This also means that you have a choice between toggle-to-aim **and** hold-to-aim. Choosing between them is entirely contextual based on how long you hold the button down (adjustable), it feels very natural.
 
-This is the result of crawling through AutoHotkey's documentation, gradually learning whatever needed over the course of a day, to repurpose a script originally made for another game. Might not be the most refined, but works well.
-
+This particular script is the result of crawling through AutoHotkey's documentation, gradually learning whatever needed over the course of a day, to repurpose a script originally made for another game. Might not be the most refined, but it works well enough to often forget the fact that this mechanic isn't in the game natively.
 
 
 ## Usage
@@ -29,7 +28,7 @@ Therefore, it is prone to occasionally becoming "confused" about whether you wan
 1) Panicked, rapid mashing of both mouse buttons.
 2) Holding down the right mouse button while reloading.
 
-In the 2nd case, BF2 ignores input from the Aim key during a weapon reload. So if you are holding the Aim key upon finishing the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
+In the 2nd scenario, BF2 ignores input from the Aim key during a weapon reload. So if you are holding the Aim key upon finishing the reload animation, the script will trigger ADS once you release the key (instead of lowering your sights which is what you'd normally want).
 
 In either case, and other similar situations, a quick tap of the mouse key should quickly get everything back on track. 
 
