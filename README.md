@@ -37,6 +37,6 @@ When it comes to vehicles, one discovered quirk is losing the fully automatic fi
 
 ## Acknowledgements
 
-- Huge and special thanks to Desi Quintans, [whose script for EYE Divine Cybermancy](https://github.com/DesiQuintans/eye-holdaim) I used as a foundation and inspiration for my BF2 version.
+- Huge and special thanks to [Desi Quintans](http://www.desiquintans.com/), whose [script for EYE Divine Cybermancy](https://github.com/DesiQuintans/eye-holdaim) I used as a foundation and inspiration for my BF2 version.
 
 - The BF2 icon for the compiled executable comes from the BF2 executable itself.
